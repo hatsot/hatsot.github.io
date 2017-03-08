@@ -71,31 +71,32 @@
         <!-- /.container-fluid -->
     </nav>
 
+    
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">I MAKE THINGS</span>
-                        <hr class="star-light">
-                        <span class="skills">Product Designer - UX & UI  Designer</span>
-                    </div>
-                </div>
-            </div>
+                     <img class="img-responsive" src="img/sot.png" alt="" id="sot">  
+
         </div>
-    </header>
+
+        </header>
+      <div class="text-center downa page-scroll">
+        <a href="#portfolio"><img id="down" src="img/down.png"></a>
+      </div>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>MY WORK</h2>
-                    <hr class="star-primary">
+                <div class="col-md-12 text-left">
+                    <h3 class="line">My Work</h3>
                 </div>
             </div>
+          
+            <br>
+            <br>
+
+            
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
@@ -170,32 +171,52 @@
    <section class="success" id="youtube">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>YOUTUBE CHANNEL</h2>
-                    <hr class="star-light">
+                <div class="col-lg-12 text-left">
+                    <h3 class="line">My Videos</h3>
                 </div>
             </div>
-       <div class="embed-responsive embed-responsive-16by9" >
-<iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/fIy3_6tfOsE"></iframe>
-</div>
+            <br>
+            <br>
+
+            <div class="row"> 
+
+               <div class="col-sm-6 vid">
+               <div class="embed-responsive embed-responsive-16by9" >
+                <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/DXkCKw5HXmI"></iframe>
+               </div>
+            </div>
+
+               <div class="col-sm-6 vid">
+                 <div class="embed-responsive embed-responsive-16by9" >
+                 <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/fIy3_6tfOsE"></iframe>
+               </div>
+              </div>
+           </div>
+        </div>
+ 
     </section>
 
 
     <!-- About Section -->
     <section id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-primary">
+
+              <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h3 class="line">About Me</h3>
                 </div>
             </div>
+            <br>
+            <br>
+
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>My name is Sotiris Chatoupis and I'm a passionate self-taught designer with a background in electrical engineering. I believe in combining imagination and logic to create useful products that make people's life better.</p>
+                <div class="col-sm-6 text-center">
+                <img src="img/profile.png"  id="me">
+                   
                 </div>
-                <div class="col-lg-4">
-                    <p>I am intersted in all stages of design, from the idea to the final product. Invision, Photoshop and Illustrator are my favorite toys. Github, HTML, CSS and JS are some new friends that help me widen my creative horizons.</p>
+                <div class="col-sm-6 about">
+                <p>My name is Sotiris Chatoupis and I'm a passionate self-taught designer with a background in electrical engineering. I believe in combining imagination and logic to create useful products that make people's life better.I am intersted in all stages of design, from the idea to the final product. Invision, Photoshop and Illustrator are my favorite toys. Github, HTML, CSS and JS are some new friends that help me widen my creative horizons.</p>
+                    
                 </div>
                 <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
@@ -206,89 +227,18 @@
         </div>
     </section>
 
-    <!-- Contact Section 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-
-
-            <form id="contactform" action="//formspree.io/your@email.com" method="POST">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="_replyto" placeholder="Your email">
-    <textarea name="message" placeholder="Your message"></textarea>
-    <input type="submit" value="Send">
-</form>  -->
-         
-
-       <!--  
-         <div class="row">
-
-
-               <div class="col-lg-8 col-lg-offset-2">
-
-                 
-
-                     To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. 
-                     The form should work on most web servers, but if the form is not working you may need to configure your web server differently. 
-                    <form  method="POST" name="sentMessage" id="contactForm" action="//formspree.io/hatsot89@gmail.com">
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Hi! What's your Name?">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your Email Address">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div> 
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="You can send feedback and questions here" id="message" name="message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg" value="Send">Send</button>
-                            </div>
-                        </div>
-                    </form> 
-                </div>  
-            </div>
-        </div>
-    </section> -->
 
     <!-- Footer -->
-   <footer class="text-center">
-        <div class="footer-above">
+   <footer >
+        
             <div class="container">
                 <div class="row">
-                    <!-- <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div> -->
-                    <div class="footer-col col-md-12">
+                    <div class="col-sm-4 col-sm-offset-2 contact">
+                        <h3>Contact Me</h3>
+                        <p>hatsot89@gmail.com
+                            <br>+30 6946023620</p>
+                    </div> 
+                    <div class="col-sm-4 contact">
                         <h3>AROUND THE WEB</h3>
                         <ul class="list-inline">
                             
@@ -305,30 +255,14 @@
                                                    
                         </ul>
                     </div>
-                    <!--<div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div> -->
+                 
                 </div>
             </div>
-        </div>
-       <!-- <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
-                    </div>
-                </div>
-            </div>
-        </div> -->
+     
+ 
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+
 
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -593,8 +527,11 @@
         </div>
     </div>
 
-    <!-- jQuery -->
+   
+
+     <!-- jQuery -->
     <script src="jquery.js"></script>
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap.js"></script>
