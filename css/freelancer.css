@@ -347,7 +347,7 @@ footer h3 {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 60px 0;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
@@ -366,7 +366,7 @@ footer h3 {
   height: 75px;
   background-color: transparent;
   top: 25px;
-  right: 25px;
+  right: 15px;
   cursor: pointer;
 }
 .portfolio-modal .close-modal:hover {
