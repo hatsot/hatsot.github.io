@@ -10,10 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Portofolio</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <title>Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap.css" rel="stylesheet">
@@ -31,37 +28,12 @@
 
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-
-     <!-- DRIFT chat -->
-     
-        <!-- Start of Async Drift Code 
-<script>
-!function() {
-  var t;
-  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-  t.factory = function(e) {
-    return function() {
-      var n;
-      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-    };
-  }, t.methods.forEach(function(e) {
-    t[e] = t.factory(e);
-  }), t.load = function(t) {
-    var e, n, o, i;
-    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-  });
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('wwbm5k42dyt2');
-</script>
- End of Async Drift Code -->   
    
 </head>
 
 <body id="page-top" class="index">
+
+
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -114,6 +86,7 @@ drift.load('wwbm5k42dyt2');
         <a href="#portfolio"><img id="down" src="img/down.png"></a>
       </div>
 
+ 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
@@ -126,13 +99,12 @@ drift.load('wwbm5k42dyt2');
             <br>
             <br>
 
-            
             <div class="row">
-             <div class="col-sm-12 portfolio-item" 
+            <div class="col-sm-12 portfolio-item" 
             style="color: white;
             background: #9e41fd; /* For browsers that do not support gradients */
             background: -webkit-linear-gradient(left, #db047a, #9e41fd); /* For Safari 5.1 to 6.0 */
-            background: -o-linear-gradient(right, #db047a , #9e41fd); /* For Opera 11.1 to 12.0 */
+ 		    background: -o-linear-gradient(right, #db047a , #9e41fd); /* For Opera 11.1 to 12.0 */
             background: -moz-linear-gradient(right, #db047a , #9e41fd); /* For Firefox 3.6 to 15 */
             background: linear-gradient(to right, #db047a , #9e41fd); /* Standard syntax */
             display: flex; 
@@ -141,10 +113,23 @@ drift.load('wwbm5k42dyt2');
 
             ">
                    <p style="margin: 0; font-size: 16px;"> <i class="fa fa-star" aria-hidden="true"></i>
- Currenty working and making some magic for  <span style=" font-style: italic; text-decoration: underline" > <a target="_blank" style="color: white;" href="https://wappier.com/" >wappier </a> </span> </p>
+ Currenty working and making some magic with<span style=" font-style: italic; text-decoration: underline" > <a target="_blank" style="color: white;" href="https://wappier.com/solutions.html" >wappier </a> </span> </p>
             </div>
+            
+            <div class="row">
 
-              <div class="row">
+              <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <h3>Wizzo</h3>
+
+                            </div>
+                        </div>
+                        <img src="img/wizzo.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -166,18 +151,9 @@ drift.load('wwbm5k42dyt2');
                         <img src="img/herocam.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                 <h3>Thanker</h3>
-                            </div>
-                        </div>
-                        <img src="img/thnx.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-               </div>
-              <div class="row"> 
+              
+            </div>
+            <div class="row">   
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -210,9 +186,39 @@ drift.load('wwbm5k42dyt2');
                         <img src="img/ntua.png" class="img-responsive" alt="">
                     </a>
                 </div>
-              </div>
-        </div>
+
+
+            </div>
+
+            <div class="row">
+                  <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                 <h3>Thanker</h3>
+                            </div>
+                        </div>
+                        <img src="img/thnx.png" class="img-responsive" alt="">
+                    </a>
+                   </div>
+
+                    <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                 <h3>Business Card</h3>
+                            </div>
+                        </div>
+                        <img src="img/bcard.png" class="img-responsive" alt="">
+                    </a>
+                   </div>
+
+            </div>
+              
+       </div>
     </section>
+
+ <!-- News banner -->
 
 
 
@@ -244,8 +250,7 @@ drift.load('wwbm5k42dyt2');
         </div>
  
     </section>
-
-
+ 
     <!-- About Section -->
     <section id="about">
         <div class="container">
@@ -264,7 +269,7 @@ drift.load('wwbm5k42dyt2');
                    
                 </div>
                 <div class="col-sm-6 about">
-                <p>My name is Sotiris Chatoupis and I'm a passionate self-taught designer with a background in electrical engineering. I believe in combining imagination and logic to create useful products that make people's life better.I am intersted in all stages of design, from the idea to the final product. Invision, Photoshop and Illustrator are my favorite toys. Github, HTML, CSS and JS are some new friends that help me widen my creative horizons.</p>
+                <p>My name is Sotiris Chatoupis and I'm a passionate self-taught designer with a background in electrical engineering. I believe in combining imagination and logic to create useful products that make people's life better.I am intersted in all stages of design, from the idea to the final product. Invision, Photoshop and Illustrator and After Effects are my favorite toys. Github, HTML, CSS and JS help me widen my creative horizons.</p>
                     
                 </div>
                 <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -314,6 +319,50 @@ drift.load('wwbm5k42dyt2');
 
 
     <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3 class="line text-left">Wizzo</h3>
+                            
+                              
+
+                            <img src="img/wizzo/main.png" class="img-responsive img-centered" alt="">
+
+                               <video   style="margin-bottom: 30px;" autoplay="" controls="" muted="" loop="" class="img-responsive img-centered" alt="">
+                              <source src="img/wizzo/tm.mp4">
+                              </video>
+
+                              <video   style="margin-bottom: 30px;" autoplay="" controls="" muted="" loop="" class="img-responsive img-centered" alt="">
+                              <source src="img/wizzo/haifa.mp4">
+                              </video>
+
+                              <video   style="margin-bottom: 30px;" autoplay="" controls="" muted="" loop="" class="img-responsive img-centered" alt="">
+                              <source src="img/wizzo/pacman.mp4">
+                              </video>
+
+                         
+                            <p><a href="http://www.wizzogames.com/"> Wizzo</a> is an app that rewards the game lovers! More than 5 million players use Wizzo to win prizes and experience new games.</p>
+                            <p>I design and animate the banners that promote all the amazing games and prizes! I'm also responsible for the user interface and user experience of the app.</p>
+
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -570,6 +619,32 @@ drift.load('wwbm5k42dyt2');
                         
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3 class="line text-left">Business Card</h3>
+                          
+                            <img src="img/bcard/bcard.jpg" class="img-responsive img-centered" alt="">
+                          
+                            <p>I designed this card for Nate Meyvis. The idea was to be simple and clean and feature a logo of his beautiful dog.</p>
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div> 
                     </div>
                 </div>
             </div>
