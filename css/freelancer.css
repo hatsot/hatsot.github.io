@@ -84,7 +84,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   /*bg color*/
-  background: #71F8F8;
+  background: #62ddf5;
   color: white;
   height: 100vh;
   display: flex;
@@ -109,7 +109,7 @@ header .container {
 
 .navbar-custom {
   /*navbar bg color*/
-  background: #71F8F8;
+  background: #62ddf5;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -199,6 +199,7 @@ section {
 }
 
 
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -243,17 +244,27 @@ section {
   z-index: 2;
 }
 
-#youtube { background-color: #ebebeb; }
+#youtube, #tools { background-color: #ebebeb; }
 
 #youtube .vid {
 
   margin: 0 0 15px;
 }
 
+#tools .portfolio-item {
+  margin: 0 0 15px;
+
+}
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+#tools .portfolio-item {
+  margin: 0 0 30px;
+
+}
+
 }
 
 
