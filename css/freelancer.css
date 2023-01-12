@@ -26,6 +26,13 @@ body {
 
 }
 
+#download { 
+  border-radius: 35px;
+
+  background-color: #ffffff;
+  color: #000000; 
+}
+
 .downa { margin-top: -60px;  }
 
 
@@ -141,7 +148,7 @@ margin-top: 100px;
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: rgb(255, 196, 4);
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
@@ -150,22 +157,19 @@ margin-top: 100px;
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #0072b5;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: rgb(255, 196, 4);
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #0072b5;
+  color: rgb(255, 196, 4);
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #0072b5;
+  color: rgb(255, 196, 4);
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -175,9 +179,9 @@ margin-top: 100px;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #0072b5;
+ 
   color: white;
-  border-color: #0072b5;
+  border-color: #ffffff;
 }
 @media (min-width: 768px) {
   .navbar-custom {
