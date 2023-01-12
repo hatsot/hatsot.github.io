@@ -263,7 +263,10 @@ section {
 
 
 
-.about {  padding-right: 80px; padding-top: 10px;}
+.about {  padding-right: 80px; padding-top: 10px;
+}
+
+#about {background-color: #171515; color: #ffffff;}
 
 @media (max-width: 768px) {
 
