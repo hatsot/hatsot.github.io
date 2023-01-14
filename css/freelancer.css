@@ -219,7 +219,6 @@ section {
 }
 
 
-
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -267,6 +266,9 @@ section {
 }
 
 #about {background-color: #171515; color: #ffffff;}
+
+
+
 
 @media (max-width: 768px) {
 
