@@ -10,7 +10,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Portfolio</title>
+    <title>Sot Designs</title>
+    <link rel="icon" type="image/x-icon" href="/img/fav.png">
+
 
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap.css" rel="stylesheet">
@@ -25,7 +27,7 @@
     
     <link rel="icon" href="favicon.ico" type="img/s.png">
 
-<!-- Hotjar Tracking Code for https://hatsot.github.io/ -->
+<!-- Hotjar Tracking Code for https://hatsot.github.io/ 
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -37,6 +39,7 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
     
+-->
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,15 +73,18 @@
                     <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
                     </li>
+                  
                     <li class="page-scroll">
-                        <a href="#youtube">Youtube</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#about">About Me</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#tools">Tools</a>
                     </li>
+                    <li class="page-scroll" id="download">
+                        <a download style="color: black;">Download my CV</a>
+                    </li>
+                
+
 
                     <!--
                     <li class="page-scroll">
@@ -95,15 +101,14 @@
     <!-- Header -->
     <header>
         <div class="container">
-                     <img class="img-responsive" src="img/sot.png" alt="" id="sot">  
+                    <div id="sot"> <img class="img-responsive" src="img/sot.png" alt="" > </div>
+                   <div  id="me">  <img class="img-responsive" src="img/me.png" alt=""> </div>
+                     
 
         </div>
 
         </header>
-      <div class="text-center downa page-scroll">
-        <a href="#portfolio"><img id="down" src="img/down.png"></a>
-      </div>
-
+      
  
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -117,7 +122,7 @@
             <br>
             <br>
 
-            <div class="row">
+            <!-- <div class="row">
             <div class="col-sm-12 portfolio-item" 
             style="color: white;
             background: #606060;
@@ -126,47 +131,61 @@
             height:70px; 
 
             ">
+            
                    <p style="margin: 0; font-size: 17px;"> <i class="fa fa-star" aria-hidden="true"></i>
 Now working and making some magic with<span style=" font-style: italic; text-decoration: underline" > <a target="_blank" style="color: white;" href="https://wappier.com" >wappier </a> </span> over the last 2 years.   </p>
-            </div>
-            
+            </div> -->
+            <div class="row">
+
+                <div class="col-sm-4 portfolio-item">
+                             <a href="#myNN" class="portfolio-link" data-toggle="modal">
+                                
+                                 <img src="img/nn.png" class="img-responsive rcorners" alt="">
+                             </a>
+                         </div>
+         
+         
+         
+                       <div class="col-sm-4 portfolio-item">
+                             <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
+                                 
+                                 <img src="img/pokerstars.png" class="img-responsive rcorners" alt="">
+                             </a>
+                         </div>
+         
+                         <div class="col-sm-4 portfolio-item">
+                             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                              
+                                 <img src="img/dsphere.png" class="img-responsive rcorners" alt="">
+                             </a>
+                         </div>
+         
+         
+                 
+                       
+                     </div>  
             <div class="row">
 
        <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModala" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>TapOnIt Deals</h3>
-
-                            </div>
-                        </div>
-                        <img src="img/toi.png" class="img-responsive" alt="">
+                    
+                        <img src="img/toi.png" class="img-responsive rcorners" alt="">
                     </a>
                 </div>
 
 
 
               <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>Wizzo</h3>
-
-                            </div>
-                        </div>
-                        <img src="img/wizzo.png" class="img-responsive" alt="">
+                    <a href="#portfolioModalw" class="portfolio-link" data-toggle="modal">
+                      
+                        <img src="img/wizzo.png" class="img-responsive rcorners" alt="">
                     </a>
                 </div>
 
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>Trivitap</h3>
-
-                            </div>
-                        </div>
-                        <img src="img/trivitap.png" class="img-responsive" alt="">
+                    <a href="#portfolioModalwa" class="portfolio-link" data-toggle="modal">
+                       
+                        <img src="img/wappier.png" class="img-responsive rcorners" alt="">
                     </a>
                 </div>
 
@@ -174,40 +193,85 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
         
               
             </div>
+            <div class="row">
+
+                <div class="col-sm-4 portfolio-item">
+                             <a href="#portfolioModaltt" class="portfolio-link" data-toggle="modal">
+                                 
+                                 <img src="img/tt.png" class="img-responsive rcorners" alt="">
+                             </a>
+                         </div>
+         
+         
+         
+                       <div class="col-sm-4 portfolio-item">
+                             <a href="#portfolioModaldr" class="portfolio-link" data-toggle="modal">
+                             
+                                 <img src="img/dream.png" class="img-responsive rcorners" alt="">
+                             </a>
+                         </div>
+         
+                         <div class="col-sm-4 portfolio-item">
+                             <a href="#portfolioModalb" class="portfolio-link" data-toggle="modal">
+                              
+                                 <img src="img/beautly.png" class="img-responsive rcorners" alt="">
+                             </a>
+                         </div>
+         
+         
+                 
+                       
+                     </div>
+            <div class="row">
+
+                <div class="col-sm-4 portfolio-item">
+                             <a href="#portfolioModalwu" class="portfolio-link" data-toggle="modal">
+                              
+                                 <img src="img/wuiz.png" class="img-responsive rcorners" alt="">
+                             </a>
+                         </div>
+         
+         
+         
+                       <div class="col-sm-4 portfolio-item">
+                             <a href="#portfolioModalti" class="portfolio-link" data-toggle="modal">
+                               
+                                 <img src="img/tieipan.png" class="img-responsive rcorners" alt="">
+                             </a>
+                         </div>
+         
+                         <div class="col-sm-4 portfolio-item">
+                             <a href="#portfolioModaltr" class="portfolio-link" data-toggle="modal">
+                                 
+                                 <img src="img/trivitap.png" class="img-responsive rcorners" alt="">
+                             </a>
+                         </div>
+         
+         
+                 
+                       
+                     </div>
             <div class="row">   
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>Book Cover</h3>
-                            </div>
-                        </div>
-                        <img src="img/pokerbook.png" class="img-responsive" alt="">
+                      
+                        <img src="img/pokerbook.png" class="img-responsive rcorners" alt="">
                     </a>
                 </div>
 
-        <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h3>Herocam</h3>
-                            </div>
-                        </div>
-                        <img src="img/herocam.png" class="img-responsive" alt="">
+        <div class="col-sm-4 portfolio-item ">
+                    <a href="#portfolioModal2" class="portfolio-link " data-toggle="modal">
+                       
+                        <img src="img/herocam.png" class="img-responsive rcorners" alt="">
                     </a>
                 </div>
 
          
 
                  <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                 <h3>Logo</h3>
-                                  <h3></h3>
-                            </div>
-                        </div>
-                        <img src="img/ntua.png" class="img-responsive" alt="">
+                    <a href="#portfolioModalpr" class="portfolio-link" data-toggle="modal">
+                        
+                        <img src="img/prosperty.png" class="img-responsive rcorners" alt="">
                     </a>
                 </div>
 
@@ -216,35 +280,23 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
 
             <div class="row">
                   <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                 <h3>Thanker</h3>
-                            </div>
-                        </div>
-                        <img src="img/thnx.png" class="img-responsive" alt="">
+                    <a href="#portfolioModalan" class="portfolio-link" data-toggle="modal">
+                     
+                        <img src="img/anti.png" class="img-responsive rcorners" alt="">
                     </a>
                    </div>
 
                     <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                 <h3>Business Card</h3>
-                            </div>
-                        </div>
-                        <img src="img/bcard.png" class="img-responsive" alt="">
+                      
+                        <img src="img/bcard.png" class="img-responsive rcorners" alt="">
                     </a>
                    </div>
 
                           <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                 <h3>3D Design</h3>
-                            </div>
-                        </div>
-                        <img src="img/3d.png" class="img-responsive" alt="">
+                    <a href="#portfolioModale" class="portfolio-link" data-toggle="modal">
+                       
+                        <img src="img/egg.png" class="img-responsive rcorners" alt="">
                     </a>
                 </div>
 
@@ -257,7 +309,7 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
 
 
 
-
+<!--
    <section class="success" id="youtube">
         <div class="container">
             <div class="row">
@@ -284,7 +336,7 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
            </div>
         </div>
  
-    </section>
+    </section>  -->
  
     <!-- About Section -->
     <section id="about">
@@ -292,7 +344,8 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
 
               <div class="row">
                 <div class="col-lg-12 text-left">
-                    <h3 class="line">About Me</h3>
+                    <h3 class="line" style="  color: rgb(255, 196, 4);
+                    ">About Me</h3>
                 </div>
             </div>
             <br>
@@ -300,22 +353,55 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
 
             <div class="row">
                 <div class="col-sm-4 text-center">
-                <img src="img/profile.png"  id="me">
+                <img src="img/moua.png" style="border-radius: 35px;" class="img-responsive">
             </div>
                 
                 <div class="col-sm-8 about">
-                <p>My name is Sotos1 Chatoupis and I'm a passionate self-taught designer with a background in electrical engineering.</p><p> I believe in combining imagination and logic to create useful products that make people's life better.</p><p>I am intersted in all stages of design, from the idea all the way to the final product!</p>
-                <p>I love travelling, reading books, watching netflix and playing the saxophone! I also love listening to podcasts, one of my favorite design podcast is the "DesignBetter" podcast by the invision team.  </p>
+                <p>Hi! I'm Sotiris Chatoupis but you can call me Sot!<br><br> I studied electrical eningeering but later on, found my self falling in love with design and especially product design</p> <p>I am interested in all stages of Design Thinking, while I love working close with all other fields such as marketing, business, dev teams and pms.</p>
+                <p>I work as a senior product designer and have 4 years experience leading small teams</p>
+                <p>I love travelling, reading books, watching netflix and playing guitar! I also love listening to podcasts, these are 3 of my favorite.  The Crazy One Podcast, The Lex Fridman Podcast and the All-In Podcast.</p> 
+                <p>Some of my favorite design books are, The Design of Everyday Things by Don Norman, Hooked by Nir Eyal and Rocket Surgery Made Easy by Steve Krug.
+                </p>
                     
                 </div>
-                <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div> -->
+             
             </div>
         </div>
     </section>
+
+     <!-- Tennis Section -->
+     <section id="tennis">
+        <div class="container">
+
+              <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h3 class="line">The Greek Tennis podcast</h3>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="row">
+             
+                
+                <div class="col-sm-8 ">
+                    <p>Btw I'm a big tennis fan, and the co-host of the Greek Tennis Podcast with my buddy Stathis. </p> <p> If you are not interested in my design work but you want to hit some tennis balls, you can still contact me :) 💪🎾</p>
+                    <br>
+
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/69ffyBTErqLI5IUVdm9Shu?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <img src="img/tennis.jpg" style="border-radius: 35px;" class="img-responsive">
+                    <caption> At Davis Cup with Apostolos Tsitsipas</caption>
+
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
 
     <!-- About Section -->
     <section id="tools">
@@ -453,27 +539,21 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
         
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-sm-offset-2 contact">
+                    <div class="col-sm-4 col-sm-offset-2 contact text-right">
                         <h3>Contact Me</h3>
+                    </div>
+                       
+                    <div class="col-sm-4 contact">
                         <p>hatsot89@gmail.com
                             <br>+30 6946023620</p>
+                            <a href='https://www.linkedin.com/in/sothat/'> My Linkedin</a>
                     </div> 
-                    <div class="col-sm-4 contact">
-                        <h3>AROUND THE WEB</h3>
-                        <ul class="list-inline">
-                            
-                           
-                            <li>
-                                <a href="https://www.instagram.com/hatsot" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/sotiris.hat" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/channel/UCTBpVrX72_5r5Aaj2492q3w" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
-                            </li> 
-                                                   
-                        </ul>
+                
+    
+
+</div>
+
+
                     </div>
                  
                 </div>
@@ -485,6 +565,208 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
 
 
     <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="myNN" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <h3 class="line text-left">My NN</h3>
+
+                <p class="text-left">As part of PWC team, I redesigned the UI/UX of myNN portal for NN Hellas, both for web and mobile app. This was a nice challenge for two main reasons. I had to deliver a fresh look while keeping in mind the very strict brand/design quidelines of the NN group. Also having a tight deadline and a lot of moving parts, what made this project a success was hard work, lots of focus, constant feedback from the client and effective communication among all teams.</p>
+
+
+
+                <div class="modal-body"> </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/nn/nn5.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/nn/nn6.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                        <img src="img/nn/nn7.png" class="img-responsive rcorners" alt="">
+                     
+                     </div>
+
+                </div>    
+                
+
+                <div class="row">
+                    <div class="col-lg-12">
+                            
+                              
+
+                            <img src="img/nn/nn1.png" class="img-responsive img-centered rcorners" alt="">
+
+                            <img src="img/nn/nn3.png" class="img-responsive img-centered rcorners" alt="">
+
+                            <img src="img/nn/nn4.png" class="img-responsive img-centered rcorners" alt="">
+
+
+                    </div>
+                </div>    
+
+               
+                         
+                    
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModaltt" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <h3 class="line text-left">Thoroughbred Tokens</h3>
+
+                <p class="text-left">Thoroughbred Tokens was one of the very first clients of Dsphere, where we provided them  with our NFT marketplace solution. Users can trade NFTs on the polygon blockchain. As you can tell the look and feel of the marketplace is fully customizable to the client's needs. </p>
+
+
+
+                <div class="modal-body"> </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/tt/tt3.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/tt/tt4.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                        <img src="img/tt/tt6.png" class="img-responsive rcorners" alt="">
+                     
+                     </div>
+
+                </div>    
+                
+
+                <div class="row">
+                    <div class="col-lg-12">
+                            
+                              
+
+                            <img src="img/tt/tt1.png" class="img-responsive img-centered rcorners" alt="">
+
+                            <img src="img/tt/tt2.png" class="img-responsive img-centered rcorners" alt="">
+
+
+
+                    </div>
+                </div>    
+
+               
+                         
+                    
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalan" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <h3 class="line text-left">Anti.o</h3>
+
+                <p class="text-left">Atni.o (read as antidoto) has a special place in my heart because it was one of this covid side project that we run with a small group of people while working at wappier. Basically we created this as part of a covid hackathon, the idea was to educate people about covid without spreading fear. We also got a prize for this, some AWS credits (oh well..) </p>
+
+
+
+                <div class="modal-body"> </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/antidoto/an1.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/antidoto/an2.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                        <img src="img/antidoto/an5.png" class="img-responsive rcorners" alt="">
+                     
+                     </div>
+
+                </div>    
+                
+
+                
+
+                <div class="row">
+                    <div class="col-lg-12">
+                            
+                              
+
+                            <img src="img/antidoto/an8.png" class="img-responsive img-centered rcorners" alt="">
+
+                            <img src="img/antidoto/an12.png" class="img-responsive img-centered rcorners" alt="">
+
+
+
+                    </div>
+                </div>    
+
+               
+                         
+                    
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -494,31 +776,35 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
                 </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3 class="line text-left">Wizzo</h3>
+            
+                <h3 class="line text-left">Pokerstars Play</h3>
+                <p class="text-left">I was really excited about this project since I was a pokerstars user from my college days! So, while working for wappier we provided pokerstars with our loyalty solution where through an sdk they implement a loyalty experience in their game. The whole loyalty system and the look and feel is created and configured by us (wappier) through a very structured and well defined process that demands high level collaboration among all different teams.  </p>
+
+                   
+                        <div class="modal-body"></div>
+                    
+                            
                             
                               
+                            <div class="row">
+                                <div class="col-lg-12">
+                                        
+                                          
+            
+                                        <img src="img/ps/ps1.png" class="img-responsive img-centered rcorners" alt="">
+            
+                                        <img src="img/ps/ps2.png" class="img-responsive img-centered rcorners" alt="">
+            
+                                        <img src="img/ps/ps3.png" class="img-responsive img-centered rcorners" alt="">
 
-                            <img src="img/wizzo/main.png" class="img-responsive img-centered" alt="">
+                                        <img src="img/ps/ps4.png" class="img-responsive img-centered rcorners" alt="">
 
-                               <video   style="margin-bottom: 30px;" autoplay="" controls="" muted="" loop="" class="img-responsive img-centered" alt="">
-                              <source src="img/wizzo/tm.mp4">
-                              </video>
-
-                              <video   style="margin-bottom: 30px;" autoplay="" controls="" muted="" loop="" class="img-responsive img-centered" alt="">
-                              <source src="img/wizzo/haifa.mp4">
-                              </video>
-
-                              <video   style="margin-bottom: 30px;" autoplay="" controls="" muted="" loop="" class="img-responsive img-centered" alt="">
-                              <source src="img/wizzo/pacman.mp4">
-                              </video>
-
-                         
-                            <p><a href="http://www.wizzogames.com/"> Wizzo</a> is an app that rewards the game lovers! More than 5 million players use Wizzo to win prizes and experience new games.</p>
-                            <p>I design and animate the banners that promote all the amazing games and prizes! I'm also responsible for the user interface and user experience of the app.</p>
-
+            
+            
+                                </div>
+                            </div>   
+                          
+                    
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -538,18 +824,80 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
                 </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3 class="line text-left">Trivitap</h3>
+                
+                <h3 class="line text-left">Dshpere</h3>
+                <p class="text-left">dSphere is the web3 wappier spinoff. We are creating really fascinating stuff for the new web3 era. From air drops, to nft marektaplce, landing pages, smart contracts and more are things that we are building adn icnorporating in our web3 portal solution ready for use for brands and teams that are trying to find their way to the web3 ecosystem.  </p>
+
+                   
+                        <div class="modal-body"></div>
+                    
                             
-                            <img src="img/trivitap/trivitap1.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/trivitap/trivitap2.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/trivitap/trivitap3.png" class="img-responsive img-centered" alt="">
-                            <img src="img/trivitap/trivitap4.png" class="img-responsive img-centered" alt="">
-                            <img src="img/trivitap/trivitap5.png" class="img-responsive img-centered" alt="">
-                             <img src="img/trivitap/trivitap6.png" class="img-responsive img-centered" alt="">
-                            <p>Trivitap is the project that turned my passion for design into hard work! It's a real time mobile game. I designed the user  interface and user experience of the game.</p>
+                            
+                              
+                            <div class="row">
+                                <div class="col-lg-12">
+                                        
+                                          
+            
+                                        <img src="img/ds/ds1.png" class="img-responsive img-centered rcorners" alt="">
+            
+                                        <img src="img/ds/ds2.png" class="img-responsive img-centered rcorners" alt="">
+            
+                                        <img src="img/ds/ds3.png" class="img-responsive img-centered rcorners" alt="">
+
+                                        <img src="img/ds/ds4.png" class="img-responsive img-centered rcorners" alt="">
+
+            
+            
+                                </div>
+                            </div>   
+                          
+
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModalwa" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                
+                <h3 class="line text-left">wappier</h3>
+                <p class="text-left">I worked for over 5 years in wappier and I had the chance to work on many different projects and gain a lot of experience as a product designer. Wappier provides through its platform the tools to maximize user life time value in mobile apps & games.</p>
+
+                   
+                        <div class="modal-body"></div>
+                    
+                            
+                            
+                              
+                            <div class="row">
+                                <div class="col-lg-12">
+                                        
+                                          
+            
+                                        <img src="img/wappier/w1.png" class="img-responsive img-centered rcorners" alt="">
+            
+                                        <img src="img/wappier/w2.png" class="img-responsive img-centered rcorners" alt="">
+            
+                                        <img src="img/wappier/w3.png" class="img-responsive img-centered rcorners" alt="">
+
+            
+            
+                                </div>
+                            </div>   
+                          
 
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -571,24 +919,29 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
             <div class="container">
 
                             <h3 class="line text-left">Herocam</h3>
+                            <p class="text-left">Herocam is an app based on image recognition which aims to make the tourist experience better. I designed the UI nad UX of the app. The aim was to be fresh, easy adn fast to use. It's available on the <a target="_blank" href="https://itunes.apple.com/us/app/herocam/id1078111204?ls=1&mt=8">App Store</a>.</p>
+
+                               
+                        <div class="modal-body"></div>
+                                
                             
 
                 <div class="row">
                     <div class="col-sm-4">
                   
-                       <img src="img/1.png" class="img-responsive" alt="">
+                       <img src="img/1.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/3.png" class="img-responsive" alt="">
+                       <img src="img/3.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/4.png" class="img-responsive" alt="">
+                       <img src="img/4.png" class="img-responsive rcorners" alt="">
                     
                     </div>   
 
@@ -597,25 +950,24 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
                  <div class="row">
                     <div class="col-sm-4">
                   
-                       <img src="img/herocam/h0.png" class="img-responsive" alt="">
+                       <img src="img/herocam/h0.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/herocam/h3.png" class="img-responsive" alt="">
+                       <img src="img/herocam/h3.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/herocam/h1.png" class="img-responsive" alt="">
+                       <img src="img/herocam/h1.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                  </div>
 
-                    <p>Herocam is an app based on image recognition which aims to make the tourist experience better. I designed the UI nad UX of the app. The aim was to be fresh, easy adn fast to use. It's available on the <a target="_blank" href="https://itunes.apple.com/us/app/herocam/id1078111204?ls=1&mt=8">App Store</a>.</p>
     
                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
@@ -665,27 +1017,28 @@ Now working and making some magic with<span style=" font-style: italic; text-dec
             <div class="container">
 
                             <h3 class="line text-left">TapOnIt Deals</h3>
-                            
+                            <p class="text-left">TapOnIt Deals is a mobile site that drives traffic and sales to local businesses while making it easy for people to save money and try new things. Users get deals through sms and then they are redirected to the taponit mobile site where they can see more deals, redeem the ones they want and collect loyalty points to get amazing rewards.</p> 
+                            <p class="text-left"> One of my projects in wappier was to redesign the taponit mobile deals web site, make it more functional and improve the experience of the user. We are still working with taponit on daily basis to improve the TapOnIt deals experience! </p>
+
+                            <div class="modal-body"></div>
+  
 
                 <div class="row">
                     <div class="col-sm-4">
                   
-                       <img src="img/toi/f.png" class="img-responsive" alt="">
+                       <img src="img/toi/f.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/toi/offer.png" style="-webkit-box-shadow: 0px 0px 10px 0px rgba(212,212,212,0.75);
--moz-box-shadow: 0px 0px 10px 0px rgba(212,212,212,0.75);
-box-shadow: 0px 0px 10px 0px rgba(212,212,212,0.75);
-Copy Text " class="img-responsive" alt="">
+                       <img src="img/toi/offer.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/toi/share.png" class="img-responsive" alt="">
+                       <img src="img/toi/share.png" class="img-responsive rcorners" alt="">
                     
                     </div>   
 
@@ -695,29 +1048,25 @@ Copy Text " class="img-responsive" alt="">
                
                     <div class="col-sm-4">
                   
-                       <img src="img/toi/wallet.png" class="img-responsive" alt="">
+                       <img src="img/toi/wallet.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/toi/loy.png" class="img-responsive" alt="">
+                       <img src="img/toi/loy.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                          <div class="col-sm-4">
                   
-                       <img src="img/toi/store.png" style="-webkit-box-shadow: 0px 0px 10px 0px rgba(212,212,212,0.75);
--moz-box-shadow: 0px 0px 10px 0px rgba(212,212,212,0.75);
-box-shadow: 0px 0px 10px 0px rgba(212,212,212,0.75);
-Copy Text " class="img-responsive" alt="">
+                       <img src="img/toi/store.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
 
                  </div>
 
-                    <p>TapOnIt Deals is a mobile site that drives traffic and sales to local businesses while making it easy for people to save money and try new things. Users get deals through sms and then they are redirected to the taponit mobile site where they can see more deals, redeem the ones they want and collect loyalty points to get amazing rewards.</p> <p> One of my projects in wappier was to redesign the taponit mobile deals web site, make it more functional and improve the experience of the user. We are still working with taponit on daily basis to improve the TapOnIt deals experience! </p>
     
                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
@@ -733,7 +1082,7 @@ Copy Text " class="img-responsive" alt="">
 
 
 
-     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="portfolio-modal modal fade" id="portfolioModalw" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -743,24 +1092,31 @@ Copy Text " class="img-responsive" alt="">
             </div>
               <div class="container">
 
-                            <h3 class="line text-left">Thanker</h3>
+                            <h3 class="line text-left">Wizzo</h3>
+
+                            <p class="text-left"> <a href="http://www.wizzogames.com/"> Wizzo</a> is an app that rewards the game lovers! More than 5 million players use Wizzo to upload and stream videos, win prizes and experience new games.</p>
+                            <p class="text-left">I have to say this was one of my favorite projects when we were a small team in the early years of wappier. We basically managed just a handful of talented people to build a top quality product. I led the design of the UI/UX of the app. One intersting aspect of this app is that is targeted for users of the MENA region so had to design all screens and flows on RTL as well but also having in mind the different culture of the target users.  </p>
+            
+            
+            
+                            <div class="modal-body"> </div>
                            
                  <div class="row">
                     <div class="col-sm-4">
                   
-                       <img src="img/thanker/1.png" class="img-responsive" alt="">
+                       <img src="img/wizzo/wi4.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/thanker/2.png" class="img-responsive" alt="">
+                       <img src="img/wizzo/wi11.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/thanker/3.png" class="img-responsive" alt="">
+                       <img src="img/wizzo/wi3.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
@@ -769,27 +1125,38 @@ Copy Text " class="img-responsive" alt="">
                   <div class="row">
                     <div class="col-sm-4">
                   
-                       <img src="img/thanker/4.png" class="img-responsive" alt="">
+                       <img src="img/wizzo/wi1.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/thanker/5.png" class="img-responsive" alt="">
+                       <img src="img/wizzo/wi7.png" class="img-responsive rcorners" alt="">
                     
                     </div>
 
                     <div class="col-sm-4">
                   
-                       <img src="img/thanker/6.png" class="img-responsive" alt="">
+                       <img src="img/wizzo/wi8.png" class="img-responsive rcorners" alt="">
                     
                    
                    </div>
 
                 </div>   
 
+                <div class="row">
+                    <div class="col-lg-12">
+                            
+                              
 
-                    <p>Thanker is a prototype I made for a mobile app. The idea is to promote positivity and good deeds through a social network of thanks and wishes.</p>
+                            <img src="img/wizzo/wi12.png" class="img-responsive img-centered rcorners" alt="">
+
+                          
+
+
+                    </div>
+                </div>    
+
     
                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
@@ -798,6 +1165,499 @@ Copy Text " class="img-responsive" alt="">
             </div>
         </div>
     </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalb" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+              <div class="container">
+
+                            <h3 class="line text-left">Beautly</h3>
+
+                            <p class="text-left">Beautly is my attempt in entrepreneurship along with other 3 good friends and talented people. We basically created a service that connects women that needs beauty services in the comfort and flexibility of their home with beauty professionals of all kinds. So we basically created two apps, one for the customers and one for the professionals. We run this as a side project, we put it out there on the world and it was really fun to see people actually using it! But from a business perspective we didnt manage to make it profitable enough. Lot's of lessons learnt for the next attempt :) I was the designer of the team so I designed everything from the two apps, the logo, the website to the ads. </p>
+            
+            
+            
+                            <div class="modal-body"> </div>
+
+                            <p class="text-left">Customers app</p>
+         
+                           
+                 <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/1.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/2.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/3.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+
+                  <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/4.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/5.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/6.png" class="img-responsive rcorners" alt="">
+                    
+                   
+                   </div>
+
+                </div>   
+
+                <div></div> 
+                <div></div> 
+
+                <p class="text-left">Professionals app</p>
+
+
+                <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/7.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/8.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/9.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+
+                  <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/10.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/11.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/beautly/12.png" class="img-responsive rcorners" alt="">
+                    
+                   
+                   </div>
+
+                </div>  
+                
+    
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+               
+               
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModaltr" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+              <div class="container">
+
+                            <h3 class="line text-left">Trivitap</h3>
+
+                            <p class="text-left">Trivitap holds a special place in my heart. It's my very first project that turned my passion for design into hard work! It's a real time mobile game. I designed the user interface and user experience of the game.  </p>
+            
+            
+            
+                            <div class="modal-body"> </div>
+                           
+                 <div class="row">
+                    <div class="col-sm-12">
+                  
+                       <img src="img/trivitap/trivitap1.jpg" class="img-responsive rcorners" alt="">
+                       <img src="img/trivitap/trivitap2.jpg" class="img-responsive rcorners" alt="">
+                       <img src="img/trivitap/trivitap3.png" class="img-responsive rcorners" alt="">
+                       <img src="img/trivitap/trivitap4.png" class="img-responsive rcorners" alt="">
+                       <img src="img/trivitap/trivitap5.png" class="img-responsive rcorners" alt="">
+
+
+
+
+                    
+                    </div>
+         </div>
+         
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+               
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModaldr" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+              <div class="container">
+
+                            <h3 class="line text-left">Dream by MBC</h3>
+
+                            <p class="text-left"> Dream is a famous TV Show from MBC where in a way people are trying to win life changing money by entering some kind of lottery. I was asked to design the homepage and the store screens of the app. This app is serving as an additional way to enter the lottery besides the tv show and it actually managed to collect big amount of traffic and money. </p>
+            
+            
+            
+                            <div class="modal-body"> </div>
+                           
+                 <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/dream/dr1.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/dream/dr2.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/dream/dr3.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+
+                
+    
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+               
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalwu" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+              <div class="container">
+
+                            <h3 class="line text-left">wu!z</h3>
+
+                            <p class="text-left">Wu!z is a live quiz game app where the users with the most correct answers win cash prizes. I was asked to redesign the store experience of the app with the single goal of driving more users to spent money on boosters, coins and special deals.</p>
+            
+            
+            
+                            <div class="modal-body"> </div>
+                           
+                 <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/wuiz/wu6.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/wuiz/wu4.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/wuiz/wu1.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+
+                 <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/wuiz/wu2.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/wuiz/wu5.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/wuiz/wu3.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+                
+    
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+               
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalpr" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+              <div class="container">
+
+                            <h3 class="line text-left">Prosperty</h3>
+
+                            <p class="text-left">Prosperty is a real estate company. I was asked to create a POC flow where a user could take a photo of the street they're standing, app would scan the photo and with the help of ai technology would show the nearest deals in the area while you could also chat with an agent on the spot.</p>
+            
+            
+            
+                            <div class="modal-body"> </div>
+                           
+                 <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/prosperty/pr8.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/prosperty/pr9.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/prosperty/pr5.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+
+                 <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/prosperty/pr2.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/prosperty/pr1.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/prosperty/pr7.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+                
+    
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+               
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalti" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+              <div class="container">
+
+                            <h3 class="line text-left">ΤΙ ειπαν?
+                            </h3>
+
+                            <p class="text-left">"Τι είπαν" is one of the most popular quiz games in Greece. I redesigned the whole UI and Logo giving it a more fresh and modern look. I also enjoy playing the game with my friends, especially on holidays!</p>
+            
+            
+            
+                            <div class="modal-body"> </div>
+                           
+                 <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/tieipan/ti4.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/tieipan/ti2.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/tieipan/ti5.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+
+                 <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/tieipan/ti3.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/tieipan/ti1.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/tieipan/ti6.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+                
+    
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+               
+               
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModale" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+              <div class="container">
+
+                            <h3 class="line text-left">Augomaxies
+                            </h3>
+
+                            <p class="text-left">There is a greek tradition where on easter holidays at the family table we hit eggs with each other until all eggs are broken except one! On covid time many families couldnt be together so we decide with a good friend an ninja developer, Kyriakos Leivadas, to create an app with the same experience, where pepople could hit eggs without being in the same place! </p>
+                            <p class="text-left"> This is a really cheesy and fun app and was trending on the easter holidays! We went from the idea to a working app in less tha five days, and this was after worκ hours. That's a personal record for me :P</p>
+            
+            
+            
+                            <div class="modal-body"> </div>
+                 
+                            <div class="row">
+                                <div class="col-sm-4">
+                              
+                                   <img src="img/egg/aug4.png" class="img-responsive rcorners" alt="">
+                                
+                                </div>
+            
+                                <div class="col-sm-4">
+                              
+                                   <img src="img/egg/aug5.png" class="img-responsive rcorners" alt="">
+                                
+                                </div>
+            
+                                <div class="col-sm-4">
+                              
+                                   <img src="img/egg/aug6.png" class="img-responsive rcorners" alt="">
+                                
+                                </div>
+            
+                             </div>          
+                            
+
+
+                 <div class="row">
+                    <div class="col-sm-4">
+                  
+                       <img src="img/egg/aug1.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/egg/aug2.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                    <div class="col-sm-4">
+                  
+                       <img src="img/egg/aug3.png" class="img-responsive rcorners" alt="">
+                    
+                    </div>
+
+                 </div>
+
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+               
+               
+            </div>
+        </div>
+    </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -808,14 +1668,30 @@ Copy Text " class="img-responsive" alt="">
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                    <div class="col-lg-12 ">
                             <h3 class="line text-left">Book Cover</h3>
+
+                            <p class="text-left">I designed the cover of <a target="_blank" href="https://www.amazon.com/Thinking-Tournament-Poker-Nate-Meyvis-ebook/dp/B017MTTGYC">this book series</a> for Nate Meyvis, the co-host of the Thinking Poker Podcast</p>
+
+                            <div class="modal-body"></div>
+
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                              
+                                   <img src="img/ebook/a.png" class="img-responsive rcorners" alt="">
+                                
+                                </div>
+
+                                <div class="col-sm-6">
+                              
+                                    <img src="img/ebook/a2.png" class="img-responsive rcorners" alt="">
+                                 
+                                 </div>
+
+                            </div>
                           
-                            <img src="img/ebook/a.png" class="img-responsive img-centered" alt="">
-                             <img src="img/ebook/a2.png" class="img-responsive img-centered" alt="">
-                            <p>I designed the cover of <a target="_blank" href="https://www.amazon.com/Thinking-Tournament-Poker-Nate-Meyvis-ebook/dp/B017MTTGYC">this book series</a> for Nate Meyvis, the co-host of the Thinking Poker Podcast</p>
-                            
+                          
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div> 
                     </div>
@@ -823,55 +1699,7 @@ Copy Text " class="img-responsive" alt="">
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3 class="line text-left">3d creations</h3>
-                           
-                            <img src="img/church.png" class="img-responsive img-centered" alt="">
-                            <img src="img/shield.png" class="img-responsive img-centered" alt="">
-                            <p>While I was serving my army duty in Greece I practiced 3d design in my free time. My military unit badge and a small church was two things I saw everyday in the army camp and apparently source of inspiration :)</p>
-                          
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-               <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h3 class="line text-left">NTUA WANNA KNOW</h3>
-                            
-                            <img src="img/ntua_main.png" class="img-responsive img-centered" alt=""  >
-                            <p>With more than 10.000 followers,<a href="https://www.facebook.com/NTUA.wanna.know/?fref=ts"> NTUA WANNA KNOW </a> is the most popular social page of the National Technical University of Athens. As a student there and a fan of the page, I was more than happy to design the logo.</p>
-                        
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  
 
      <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -883,13 +1711,15 @@ Copy Text " class="img-responsive" alt="">
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                    <div class="col-lg-12">
                             <h3 class="line text-left">Business Card</h3>
+                            <p class="text-left">I designed this card for Nate Meyvis. The idea was to be simple and clean and feature a logo of his beautiful dog.</p>
+                            <div class="modal-body"></div>
+
+
                           
                             <img src="img/bcard/bcard.jpg" class="img-responsive img-centered" alt="">
                           
-                            <p>I designed this card for Nate Meyvis. The idea was to be simple and clean and feature a logo of his beautiful dog.</p>
                             
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div> 
@@ -920,7 +1750,7 @@ Copy Text " class="img-responsive" alt="">
 
 
 
-<!-- Google Analytics Script -->
+<!-- Google Analytics Script
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -931,7 +1761,7 @@ Copy Text " class="img-responsive" alt="">
   ga('send', 'pageview');
 
 </script>
-
+ -->
 
 </body>
 
