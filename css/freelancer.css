@@ -310,9 +310,9 @@ section {
 }
 
 footer {
-  color: white;
   padding: 70px 0;
-  background-color: #2C3E50;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 footer h3 {
