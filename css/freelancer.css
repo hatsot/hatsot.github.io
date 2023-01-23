@@ -249,6 +249,13 @@ section {
   margin: 0 auto;
 }
 
+#portfolio {
+
+  background-image: ;
+  background-repeat: no-repeat;
+background-position:  right;
+}
+
 
 
 #portfolio * {
@@ -324,6 +331,12 @@ footer h3 {
   background: #ffffff;
   filter: drop-shadow(0 0 0.75rem rgb(234, 234, 234));
   transition: transform .2s
+}
+
+@media (max-width: 768px) {
+  .rcorners {border-radius: 18px;}
+
+
 }
 
 .tcorners
