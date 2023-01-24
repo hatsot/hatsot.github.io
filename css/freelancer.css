@@ -16,6 +16,19 @@ body {
 
 }
 
+#sotv { display: none;}
+
+@media (max-width: 767px) {
+  #sot {
+    display: none;  }
+    #sotv {
+      margin-top: 39px;
+      width: 500px;
+      display:inline ;
+    }
+  
+}
+
 #me { position: absolute;
       right:0;
       width: 247px; 
@@ -251,7 +264,7 @@ section {
 
 #portfolio {
 
-  background-image: ;
+  
   background-repeat: no-repeat;
 background-position:  right;
 }
